@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurenze Masaga | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">LAUR</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#games">Games Created</a></li>
+                    <li><a href="#assets">Assets Created</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>LAURENZE MASAGA</h1>
+                <h2 class="titles">Game Developer & Support Specialist | Asset Artist | Low Poly 3D Modeler</h2>
+                <p class="bio">
+                    Emerging Game Developer and Artist with a strong drive to learn and 
+grow within the industry. Combining technical curiosity with a socially-conscious 
+mindset, I pride myself on being a quick study and a reliable communicator. 
+I am dedicated to refining my craft and am ready to adapt to any stage of the 
+game development process, from initial art concepts to final execution. 
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-fill"><i class="fa-regular fa-envelope"></i> Get In Touch</a>
+                    <a href="#about" class="btn btn-outline"><i class="fa-regular fa-user"></i> Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visuals">
+                <img src="PROFILE.png" alt="Profile Graphic" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-header">
+                <h2>ABOUT ME</h2>
+                <p>Dedicated beginner developer with a 'learn-anything' attitude. 
+I am fully committed to the evolution of my craft, 
+ leveraging strong detail-orientation and social skills to bridge 
+the gap between creative vision and technical execution.
+  
+            </div>
+
+            <div class="about-grid">
+                <div class="stat-boxes">
+                    <div class="stat-card"><h3>9+</h3><p>Skills</p></div>
+                    <a href="#games" class="stat-card"><h3>20+</h3><p>Games Created</p></a>
+                    <div class="stat-card"><h3>6+</h3><p>Trainings</p></div>
+                    <div class="stat-card cv-btn" onclick="openCV()">
+                        <div class="cv-icon"><i class="fa-solid fa-arrow-down"></i></div>
+                        <p>CV</p>
+                    </div>
+                </div>
+
+                <div class="info-content">
+                    <div class="info-block">
+                        <h3>EDUCATION</h3>
+                        <p><strong>Bicol State College of Applied Sciences and Technology</strong></p>
+                        <p>» Bachelor of Science in Entertainment and Multimedia Computing – Game Development</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>SKILLS</h3>
+                        <ul class="skills-list">
+                            <li>» Programming Languages: C# , C++</li>
+                            <li>» Other tools : GitHub, Maya , Adobe Photoshop, Krita</li>
+                            <li>» Specialty : Gameplay mechanics , UI Systems, Low-poly 3D Models</li>
+                            <li>» Soft Skills: Leadership, Critical Thinking, Teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section id="games" class="portfolio-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="display-title">GAMES CREATED</h2>
+        </div>
+        
+        <div class="games-grid">
+            
+
+           <div class="game-card">
+                <div class="game-image-area">
+                    <img src="saldang-logo.png" alt="SALDANG" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>SALDANG</h4>
+                                <p>2D Survival Roguelike | Unity & C#</p>
+                                <p>Won 2nd Place at Bicol Game Jam</p>
+                                <button class="watch-btn" onclick="openVideo('', 'SALDANG')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+            
+           <div class="game-card">
+                <div class="game-image-area">
+                    <img src="SORT IT OUT.png" alt="SORT IT OUT" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>SORT IT OUT</h4>
+                                <p>3d Adventure,Puzzle,Education| Unity & C#</p>
+                                <p>Capstone Project</p>
+                                <button class="watch-btn" onclick="openVideo('sort it out.mp4', 'SORT IT OUT')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-image-area">
+                    <img src="kupido2.png" alt="Mr.Kupido" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Mr.Kupido</h4>
+                                <p>2d Platformer Shooter</p>
+                                <p>Achieve 19th Place in the YCC Competition</p>
+                                <button class="watch-btn" onclick="openVideo('', 'Mr.Kupido')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-image-area">
+                    <img src="WHOLE MAP.png" alt="MendVille" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>MendVille</h4>
+                                <p>2d Educational Game</p>
+                                <p>Client Commission</p>
+                                <button class="watch-btn" onclick="openVideo('', 'MendVille')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+             <div class="game-card">
+                <div class="game-image-area">
+                    <img src="SIT HAPPENS.png" alt="Sit Happens" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Sit Happens</h4>
+                                <p>3d Simulator Game, 2 Player </p>
+                                <p>Final Project</p>
+                                <button class="watch-btn" onclick="openVideo('sithappens.mp4', 'Sit Happens')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+              <div class="game-card">
+                <div class="game-image-area">
+                    <img src="BLACKOUT.png" alt="Blackout Trigger" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Blackout Trigger</h4>
+                                <p>2d Platformer Shooter</p>
+                                <p>Final Project</p>
+                                <button class="watch-btn" onclick="openVideo('blackouttrigger.mp4', 'Blackout Trigger')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+            
+            
+              <div class="game-card">
+                <div class="game-image-area">
+                    <img src="HD.png" alt="Hoop Dash" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Hoop Dash</h4>
+                                <p>2d Casual Game</p>
+                                <p>Midterm Project</p>
+                                <button class="watch-btn" onclick="openVideo('hoopdash.mp4', 'Hoop Dash')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+            
+              <div class="game-card">
+                <div class="game-image-area">
+                    <img src="CMB.png" alt="Click My Balls" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Click My Balls</h4>
+                                <p>2d Casual Game</p>
+                                <p>Midterm Project</p>
+                                <button class="watch-btn" onclick="openVideo('cmb.mp4', 'Click My Balls')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+              <div class="game-card">
+                <div class="game-image-area">
+                    <img src="placeholder.png" alt="Clock Masters" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Clock Masters</h4>
+                                <p>2d Puzzle Platformer</p>
+                                <p>Midterm Project</p>
+                                <button class="watch-btn" onclick="openVideo('', 'Clock Masters')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+
+             <div class="game-card">
+                <div class="game-image-area">
+                    <img src="placeholder.png" alt="2player Platformer Shooter" onclick="openLightbox(this)" style="cursor: pointer;">
+                </div>
+                    <div class="game-footer">
+                        <div class="footer-text">
+                            <h4>Bullet Storm</h4>
+                                <p>2player Platformer Shooter</p>
+                                <p>Midterm Project</p>
+                                <button class="watch-btn" onclick="openVideo('', '2player Platformer Shooter')">
+                                 WATCH GAMEPLAY
+            </button>
+                        </div>
+                    </div>
+            </div>
+            
+            
+
+                   
+        </div>
+    </div>
+</section>
+
+
+<div id="cvModal" class="modal">
+    <span class="close-modal" onclick="closeCV()">&times;</span>
+    <div class="modal-body" id="modalBody">
+        </div>
+</div>
+     <section id="assets" class="portfolio-section asset-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="display-title">ASSETS CREATED</h2>
+        </div>
+        
+        <div class="games-grid">
+
+            <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="Sort It Out Base Environment.png" alt="3d Environment" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>3d Environment</h4>
+                        <p>Maya</p>
+                            <button class="show-more-btn" onclick="openGallery(['Sort It Out Base Environment.png', '3denvironment1.png','3denvironment2.png','3denvironment3.png'], '3d Environment')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+             <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="3dmodel1.png" alt="3d Model" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>3d Models</h4>
+                        <p>Maya</p>
+                            <button class="show-more-btn" onclick="openGallery(['3dmodel1.png','3dmodel2.png','3dmodel3.png'], '3D MODELS')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="FULL SET.png" alt="Stylized" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>Stylized Art</h4>
+                        <p>Adobe Photoshop | Adobe Animate | Krita</p>
+                            <button class="show-more-btn" onclick="openGallery(['FULL SET.png','LOADING SCREEN.png', 'MAIN MENU.png','CHAPTER 3.png','chapter 4.png','KUBO.png'], '2d Stylized')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="JOSE RIZAL.png" alt="2d Vector" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>2d Vector</h4>
+                        <p>Adobe Photoshop | Adobe Animate | Krita</p>
+                            <button class="show-more-btn" onclick="openGallery(['JOSE RIZAL.png','LAPU LAPU.png', 'GABRIELLA SILANG.png','EMILIO AGUINALDO.png','ANDRES.png','APOLINARIO MABINI.png'], '2d Vector Artworks')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="ui.png" alt="2d Vector" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>Game Assets</h4>
+                        <p>Adobe Photoshop | Adobe Animate | Krita</p>
+                            <button class="show-more-btn" onclick="openGallery(['ui.png'], '2d Game UI')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="game-card">
+                        <div class="game-image-area">
+                                <img src="MAGEMAN.png" alt="2d Vector" onclick="openLightbox(this)" style="cursor: pointer;">
+                        </div>
+                <div class="game-footer">
+                    <div class="footer-text">
+                        <h4>2d Game Characters</h4>
+                        <p>Adobe Photoshop | Adobe Animate | Krita</p>
+                            <button class="show-more-btn" onclick="openGallery(['MAGEMAN.png','SLINGSHOTMAN.png','WARRIORMAN.png','PUNONG.png'], '2d Game Character')">
+                                    Show More
+                            </button>
+                    </div>
+                </div>
+            </div>
+           
+
+            
+         
+
+
+        </div>
+    </div>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="display-title white-text">GET IN TOUCH</h2>
+        
+        <div class="contact-grid">
+            <div class="contact-column">
+                <div class="contact-item">
+                    <a href="https://instagram.com/LAUR_ZGMSG" target="_blank" class="icon-box instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <div class="contact-text">
+                        <h4>laur_zgmsg</h4>
+                        <a href="https://www.instagram.com/laur_zgmsg/" target="_blank">www.instagram.com/laur_zgmsg/</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.facebook.com/lrenze.masaga" target="_blank" class="icon-box facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <div class="contact-text">
+                        <h4>Laurenze Masaga</h4>
+                        <a href="https://www.facebook.com/lrenze.masaga" target="_blank">www.facebook.com/lrenze.masaga</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <a href="mailto:laur@example.com" class="icon-box email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <div class="contact-text">
+                        <h4>gdeveloperlaur<br> @gmail.com</h4>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-column">
+                <div class="contact-item">
+                    <a href="https://x.com/gdeveloperlaur" target="_blank" class="icon-box twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <div class="contact-text">
+                        <h4>gdeveloperlaur</h4>
+                        <a href="https://x.com/gdeveloperlaur" target="_blank">https://x.com/gdeveloperlaur</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/PGLaurCubes" target="_blank" class="icon-box github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <div class="contact-text">
+                        <h4>PGLaurCubes</h4>
+                        <a href="https://github.com/PGLaurCubes" target="_blank">https://github.com/PGLaurCubes</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box phone">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4 class="phone-number">+63 963 225 3859</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-column location-col">
+                <div class="contact-item vertical">
+                    <div class="icon-box location">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-text center-align">
+                        <p class="address-text">ATOLE STREET, CARARAYAN, NAGA CITY<br>CAMARINES SUR, PHILIPPINES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<script>
+    const modal = document.getElementById("cvModal");
+    const modalBody = document.getElementById("modalBody");
+    
+    // Gallery State
+    let currentGalleryImages = [];
+    let currentIndex = 0;
+
+    function openLightbox(element) {
+        modal.scrollTop = 0;
+        modal.style.display = "flex";
+        modalBody.innerHTML = `
+            <img class="modal-content" src="${element.src}" alt="Preview">
+            <div class="modal-caption">
+                <h3 style="color: #FF8C75; margin-top: 15px; font-family: sans-serif; text-transform: uppercase;">${element.alt}</h3>
+            </div>
+        `;
+    }
+
+    // --- NEW GALLERY FUNCTION ---
+    function openGallery(images, title) {
+        currentGalleryImages = images;
+        currentIndex = 0;
+        modal.scrollTop = 0;
+        modal.style.display = "flex";
+        updateGalleryUI(title);
+    }
+
+    function updateGalleryUI(title) {
+        modalBody.innerHTML = `
+            <div class="gallery-container" style="position: relative; text-align: center; width: 90%; max-width: 1000px;">
+                <button class="nav-btn prev" onclick="changeImage(-1)" style="left: -50px;">&#10094;</button>
+                <img class="modal-content" src="${currentGalleryImages[currentIndex]}" style="max-width: 100%; border-radius: 8px;">
+                <button class="nav-btn next" onclick="changeImage(1)" style="right: -50px;">&#10095;</button>
+                
+                <div class="modal-caption">
+                    <h3 style="color: #FF8C75; margin-top: 15px; font-family: sans-serif; text-transform: uppercase;">${title}</h3>
+                    <p style="color: white; opacity: 0.7;">${currentIndex + 1} / ${currentGalleryImages.length}</p>
+                </div>
+            </div>
+        `;
+    }
+
+    function changeImage(step) {
+        currentIndex += step;
+        if (currentIndex >= currentGalleryImages.length) currentIndex = 0;
+        if (currentIndex < 0) currentIndex = currentGalleryImages.length - 1;
+        
+        // Grab the title from the existing H3 to keep it consistent
+        const title = modalBody.querySelector('h3').innerText;
+        updateGalleryUI(title);
+    }
+    // ----------------------------
+
+    function openVideo(videoSrc, title) {
+        modal.scrollTop = 0;
+        modal.style.display = "flex";
+        modalBody.innerHTML = `
+            <div style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
+                <video id="gameplayVideo" controls style="width: 100%; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+                    <source src="${videoSrc}" type="video/mp4">
+                </video>
+                <h3 style="color: #FF8C75; margin-top: 15px; font-family: sans-serif; text-transform: uppercase;">${title} Gameplay</h3>
+            </div>
+        `;
+        document.getElementById('gameplayVideo').play();
+    }
+
+    function openCV() {
+        modal.scrollTop = 0;
+        modal.style.display = "flex";
+        const isDesktop = window.innerWidth > 1000;
+        const flexDir = isDesktop ? "row" : "column";
+        const imgWidth = isDesktop ? "45%" : "90%";
+        modalBody.innerHTML = `
+            <div style="display: flex; flex-direction: ${flexDir}; justify-content: center; align-items: flex-start; gap: 20px; width: 95%; max-width: 1400px; margin: 0 auto;">
+                <img class="modal-content" src="1.png" alt="CV Page 1" style="width: ${imgWidth};">
+                <img class="modal-content" src="2.png" alt="CV Page 2" style="width: ${imgWidth};">
+            </div>
+        `;
+    }
+
+    function closeCV() {
+        const video = document.getElementById('gameplayVideo');
+        if (video) { video.pause(); video.src = ""; }
+        modal.style.display = "none";
+        modalBody.innerHTML = ""; 
+    }
+
+    window.onclick = function(event) { if (event.target == modal) { closeCV(); } }
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") { closeCV(); }
+        if (event.key === "ArrowRight" && currentGalleryImages.length > 0) { changeImage(1); }
+        if (event.key === "ArrowLeft" && currentGalleryImages.length > 0) { changeImage(-1); }
+    });
+</script>
+
+<div id="cvModal" class="modal">
+        <span class="close-modal" onclick="closeCV()">&times;</span>
+        <img class="modal-content" src="1.png" alt="CV Image"> 
+        
+        <img class="modal-content" src="2.png" alt="CV Image"> 
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Laurenze Masaga</p>
+    </footer>
+</body>
+</html>
